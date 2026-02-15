@@ -9,7 +9,7 @@ A web application that allows students to manage leave and permission requests e
 - **Member 2:** Elizabeth Joe - Saintgits College Of Engineering
 - 
 ## Hosted Project Link
-[Add your hosted project link here]
+https://github.com/gayathricsa2428-byte/Edupermit
 
 ## Problem Statement
 Students often face delays or confusion in applying for leave or permissions. Manual processes make it difficult to track attendance and approval status.
@@ -56,16 +56,16 @@ This web application automates leave management by:
 git clone [repo-link]
 cd [repo-folder]
 
-2. **Install dependencies**
+##2. **Install dependencies**
 pip install flask reportlab
 
-3.**Run the application**
+##3.**Run the application**
 pip install flask reportlab
 
-4.**Oen the browser and go to:
+##4.**Oen the browser and go to:
  http://127.0.0.1:5000/
 
-Usage
+##Usage
 Visit the welcome page and navigate to login/registration.
 
 Register as a student with your details.
@@ -76,8 +76,7 @@ View application status, required documents, and approval hierarchy.
 
 Download the official permission letter as a PDF if approved.
 
-Screenshots
-Future Enhancements
+##Future Enhancements
 
 Admin panel for approving/rejecting requests.
 
@@ -87,6 +86,6 @@ Integration with college attendance system.
 
 Mobile-friendly interface improvements.
 
-License
+##License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
