@@ -56,36 +56,45 @@ This web application automates leave management by:
 git clone [repo-link]
 cd [repo-folder]
 
-##2. **Install dependencies**
+
+## 2. Install dependencies
+
+```
 pip install flask reportlab
+```
 
-##3.**Run the application**
-pip install flask reportlab
+## 3. Run the application
 
-##4.**Oen the browser and go to:
- http://127.0.0.1:5000/
+```
+python app.py
+```
 
-##Usage
-Visit the welcome page and navigate to login/registration.
+## 4. Open the browser
 
-Register as a student with your details.
+Go to:  
+http://127.0.0.1:5000/
 
-Check leave eligibility by filling in attendance, leave type, dates, and other details.
+---
 
-View application status, required documents, and approval hierarchy.
+## Usage
 
-Download the official permission letter as a PDF if approved.
+1. Visit the welcome page and navigate to login/registration.  
+2. Register as a student with your details.  
+3. Check leave eligibility by filling in attendance, leave type, dates, and other details.  
+4. View application status, required documents, and approval hierarchy.  
+5. Download the official permission letter as a PDF if approved.
 
-##Future Enhancements
+---
 
-Admin panel for approving/rejecting requests.
+## Future Enhancements
 
-Email notifications for students on approval.
+- Admin panel for approving/rejecting requests.  
+- Email notifications for students on approval.  
+- Integration with college attendance system.  
+- Mobile-friendly interface improvements.
 
-Integration with college attendance system.
+---
 
-Mobile-friendly interface improvements.
+## License
 
-##License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details
