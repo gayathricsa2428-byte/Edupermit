@@ -1,100 +1,137 @@
-#  College Leave & Permission Management System 
+College Leave & Permission Management System
+ Project Overview
 
-## Project Overview
-A web application that allows students to manage leave and permission requests efficiently. The system checks eligibility based on attendance, suggests required documents, displays the approval hierarchy, and generates official permission letters as PDFs.
+A web-based system that helps students apply for leave and permission requests efficiently.
+It automatically checks eligibility based on attendance, suggests required documents, shows the approval workflow, and generates official permission letters as PDF files.
 
-## Team
-- **Team Name:** Team Fortune  
-- **Member 1:** Gayathri R - Saintgits College Of Engineering
-- **Member 2:** Elizabeth Joe - Saintgits College Of Engineering
-- 
-## Hosted Project Link
-https://github.com/gayathricsa2428-byte/Edupermit
+ Team
 
-## Problem Statement
-Students often face delays or confusion in applying for leave or permissions. Manual processes make it difficult to track attendance and approval status.
+Team Name: Team Fortune
 
-## Solution
-This web application automates leave management by:
-- Checking attendance eligibility.
-- Suggesting necessary documents.
-- Displaying the approval hierarchy (Advisor → HOD → Principal).
-- Generating official permission letters in PDF format.
+Gayathri R — Saintgits College Of Engineering
 
-## Features
-- Student Registration & Login
-- Attendance-based eligibility check
-- Multiple leave types: General, Medical, On-Duty, Event
-- Dynamic document suggestions
-- Approval hierarchy visualization
-- Downloadable PDF permission letters
-- Responsive design for all devices
+Elizabeth Joe — Saintgits College Of Engineering
 
-## Technical Details
+ Hosted Repository
 
-### Technologies / Components Used
+ https://github.com/gayathricsa2428-byte/Edupermit
 
-**Backend:**
-- Python (Flask)  
-- SQLite (Database)  
-- ReportLab (PDF Generation)  
+ Problem Statement
 
-**Frontend:**
-- HTML / CSS  
-- JavaScript  
-- Font Awesome Icons  
+Students often face confusion and delays while applying for leave due to manual verification, unclear approval hierarchy, and lack of status tracking.
 
-**Tools:**
-- VS Code  
-- Git  
-- Python environment  
+ Solution
 
-## Installation & Setup
+This system digitizes the process by:
 
-1. **Clone the repository**
-```bash
-git clone [repo-link]
-cd [repo-folder]
+  * Checking attendance eligibility automatically
+
+ * Suggesting necessary documents
+
+ * Showing approval flow (Advisor → HOD → Principal)
+
+ * Generating official permission letters in PDF
+
+ * Providing a clear and fast workflow for students
+
+Features
+
+* Student Registration & Login
+
+* Attendance-Based Eligibility Check
+
+* Multiple Leave Types:
+
+* General Leave
+
+* Medical Leave
+
+* On-Duty Leave
+
+* Event Permission
+
+* Dynamic Document Suggestions
+
+* Approval Hierarchy Visualization
+
+* Downloadable PDF Permission Letters
+
+* Fully Responsive UI
+
+ Technologies Used
+* Backend
+
+Flask
+
+SQLite
+
+ReportLab
+
+* Frontend
+
+HTML / CSS / JavaScript
 
 
-## 2. Install dependencies
+Tools
 
-```
+Visual Studio Code
+
+Git & GitHub
+
+⚙️ Local Installation & Setup
+1️⃣ Clone Repository
+git clone https://github.com/gayathricsa2428-byte/Edupermit.git
+cd Edupermit
+
+2️⃣ Create Virtual Environment (Recommended)
+python -m venv venv
+
+
+Activate:
+
+Windows
+
+venv\Scripts\activate
+
+
+Mac/Linux
+
+source venv/bin/activate
+
+ Install Dependencies
 pip install flask reportlab
-```
 
-## 3. Run the application
-
-```
+ Run Application
 python app.py
-```
 
-## 4. Open the browser
-
-Go to:  
+ Open in Browser
 http://127.0.0.1:5000/
 
----
+ Usage
 
-## Usage
+Register/Login as student
 
-1. Visit the welcome page and navigate to login/registration.  
-2. Register as a student with your details.  
-3. Check leave eligibility by filling in attendance, leave type, dates, and other details.  
-4. View application status, required documents, and approval hierarchy.  
-5. Download the official permission letter as a PDF if approved.
+Enter attendance & leave details
 
----
+System checks eligibility
 
-## Future Enhancements
+Shows required documents & approval flow
 
-- Admin panel for approving/rejecting requests.  
-- Email notifications for students on approval.  
-- Integration with college attendance system.  
-- Mobile-friendly interface improvements.
+Generate/download official permission letter
 
----
+ Future Enhancements
 
-## License
+Admin Dashboard for approvals
 
-This project is licensed under the MIT License - see the LICENSE file for details
+Email Notifications
+
+Attendance System Integration
+
+Analytics for faculty
+
+Mobile App Version
+
+License
+MIT License 
+
+MIT License
