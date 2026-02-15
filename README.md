@@ -1,10 +1,9 @@
-College Leave & Permission Management System
- Project Overview
+COLLEGE LEAVE & PERMISSION MANAGEMENT SYSTEM
+PROJECT OVERVIEW
 
-A web-based system that helps students apply for leave and permission requests efficiently.
-It automatically checks eligibility based on attendance, suggests required documents, shows the approval workflow, and generates official permission letters as PDF files.
+A web-based system that helps students apply for leave and permission requests efficiently. It automatically checks eligibility based on attendance, suggests required documents, shows the approval workflow, and generates official permission letters as PDF files.
 
- Team
+TEAM
 
 Team Name: Team Fortune
 
@@ -12,54 +11,54 @@ Gayathri R — Saintgits College Of Engineering
 
 Elizabeth Joe — Saintgits College Of Engineering
 
- Hosted Repository
+HOSTED REPOSITORY
 
- https://github.com/gayathricsa2428-byte/Edupermit
+https://github.com/gayathricsa2428-byte/Edupermit
 
- Problem Statement
+PROBLEM STATEMENT
 
 Students often face confusion and delays while applying for leave due to manual verification, unclear approval hierarchy, and lack of status tracking.
 
- Solution
+SOLUTION
 
 This system digitizes the process by:
 
-  * Checking attendance eligibility automatically
+Checking attendance eligibility automatically
 
- * Suggesting necessary documents
+Suggesting necessary documents
 
- * Showing approval flow (Advisor → HOD → Principal)
+Showing approval flow (Advisor → HOD → Principal)
 
- * Generating official permission letters in PDF
+Generating official permission letters in PDF
 
- * Providing a clear and fast workflow for students
+Providing a clear and fast workflow for students
 
-Features
+FEATURES
 
-* Student Registration & Login
+Student Registration & Login
 
-* Attendance-Based Eligibility Check
+Attendance-Based Eligibility Check
 
-* Multiple Leave Types:
+Multiple Leave Types:
 
-* General Leave
+General Leave
 
-* Medical Leave
+Medical Leave
 
-* On-Duty Leave
+On-Duty Leave
 
-* Event Permission
+Event Permission
 
-* Dynamic Document Suggestions
+Dynamic Document Suggestions
 
-* Approval Hierarchy Visualization
+Approval Hierarchy Visualization
 
-* Downloadable PDF Permission Letters
+Downloadable PDF Permission Letters
 
-* Fully Responsive UI
+Fully Responsive User Interface
 
- Technologies Used
-* Backend
+TECHNOLOGIES USED
+Backend
 
 Flask
 
@@ -67,10 +66,11 @@ SQLite
 
 ReportLab
 
-* Frontend
+Frontend
 
 HTML / CSS / JavaScript
 
+Font Awesome Icons
 
 Tools
 
@@ -78,12 +78,12 @@ Visual Studio Code
 
 Git & GitHub
 
-⚙️ Local Installation & Setup
-1️⃣ Clone Repository
+LOCAL INSTALLATION & SETUP
+1. Clone Repository
 git clone https://github.com/gayathricsa2428-byte/Edupermit.git
 cd Edupermit
 
-2️⃣ Create Virtual Environment (Recommended)
+2. Create Virtual Environment (Recommended)
 python -m venv venv
 
 
@@ -98,40 +98,70 @@ Mac/Linux
 
 source venv/bin/activate
 
- Install Dependencies
+3. Install Dependencies
 pip install flask reportlab
 
- Run Application
+4. Run Application
 python app.py
 
- Open in Browser
+5. Open in Browser
 http://127.0.0.1:5000/
 
- Usage
+USAGE
 
-Register/Login as student
+Register/Login as a student.
 
-Enter attendance & leave details
+Enter attendance and leave details.
 
-System checks eligibility
+System checks eligibility automatically.
 
-Shows required documents & approval flow
+View required documents and approval flow.
 
-Generate/download official permission letter
+Generate and download the official permission letter.
 
- Future Enhancements
+DEPLOYMENT (FOR LIVE HOSTING)
 
-Admin Dashboard for approvals
+The project can be deployed using Render for hosting Flask applications.
 
-Email Notifications
+Deployment Steps
 
-Attendance System Integration
+Push the latest code to GitHub.
 
-Analytics for faculty
+Create a requirements.txt file:
 
-Mobile App Version
+flask
+reportlab
+gunicorn
 
-License
-MIT License 
 
-MIT License
+Ensure app.py contains:
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
+
+
+Create a new Web Service in Render and connect the GitHub repository.
+
+Use the following settings:
+
+Build Command: pip install -r requirements.txt
+
+Start Command: gunicorn app:app
+
+Deploy to get a public project link.
+
+FUTURE ENHANCEMENTS
+
+Admin Dashboard for approvals and rejections
+
+Email notifications for students
+
+Integration with college attendance systems
+
+Analytics for faculty monitoring
+
+Mobile-friendly enhancements or dedicated app
+
+LICENSE
+
+This project is licensed under the MIT License.
